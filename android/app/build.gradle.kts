@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.example.vehicle_locker"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.vehicle_locker"
-        minSdk = 21
-        targetSdk = 35
+        minSdk = flutter.minSdkVersion
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0.0"
     }
